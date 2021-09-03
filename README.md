@@ -1,6 +1,9 @@
 # PockEthernet-Report-Scanner
 Simple powershell script to parse through PockEthernet CDP Switch Port Scans done in the field by technicians.  
 
+## Dependancies 
+Module - PSWritePDF
+The script _should_ install it if not present, but if not, try "Install-Module -Name PSWritePDF -Force"
 
 PockEthernet is a "A smartphone connected Ethernet network analyzer & cable tester that fits into your pocket".  PockEthernet device creates reports on network drops such as wiremapping, CDP, LLDP, and other functions. https://pockethernet.com/
 
