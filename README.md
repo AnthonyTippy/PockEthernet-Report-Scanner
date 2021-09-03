@@ -1,7 +1,7 @@
 # PockEthernet-Report-Scanner
 Simple powershell script to parse through PockEthernet CDP Switch Port Scans done in the field by technicians.  
 
-## Dependancies 
+## Dependencies 
 Module - PSWritePDF
 The script _should_ install it if not present, but if not, try "Install-Module -Name PSWritePDF -Force"
 
